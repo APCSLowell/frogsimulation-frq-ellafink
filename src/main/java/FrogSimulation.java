@@ -33,7 +33,7 @@ public class FrogSimulation
 		int t = 0;
 		for(int i = 0; i<=num; i++){
 			if(simulate() == true)
-				t++
+				t++;
 		}
 		return (double) t / num;
 	}
